@@ -1,0 +1,37 @@
+.chart-wapper{
+    width: 100%;
+    height: 250px;
+    padding: 20px 10px 20px 10px;
+    // border: 1px solid #d9d7d7;
+    // margin: 10px 0px;
+}
+.chart-wapper.light{
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.chart-wapper.dark{
+    background-color: #222E45;
+    border: 1px solid #222E45;
+}
+.chart-wapper.ai-dark{
+    background-color: #060F21;
+    border: 1px solid #060F21;
+}
+.chart-wapper.large{
+    height: 350px;
+}
+// vitepress-demo-preview/plugin
+.vitepress-demo-preview__naive-ui__container>.vitepress-demo-preview-name_handle>.vitepress-demo-preview-component__name {
+    font-size: 14px;
+}
+.vitepress-demo-preview__naive-ui__container>.vitepress-demo-preview-name_handle{
+    padding: 20px 30px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.vitepress-demo-preview__naive-ui__container>.vitepress-demo-preview-description {
+    padding: 0px 30px;
+}
+// #f5f7fa
+.vitepress-demo-preview__naive-ui__container div[class*=language-] {
+    background-color: #1e2632;
+}
